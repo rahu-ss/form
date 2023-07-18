@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=<f>, initial-scale=1.0">
+    <title>Document</title>
+     - <style>  -->
+    *{
+      box-sizing: content-box;  
+    }
+    body{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        padding: 8px;
+        font-size: 17px;
+        margin: 15px 30px;
+    }
+
+    
+    @media (max-width :311px){
+            .main{
+                display: block;
+                color: blue;
+                font-size: 15px;
+            }
+        }
+
+     .con{ 
+         background-color: blanchedalmond; 
+        padding:  5px 20px 15px 20px ;
+        border: 1px solid black;
+        border-radius: 5px;
+
+    }
+    input[type="text"],
+    input[type="email"],
+    input[type="number"],
+    input[type="text"]
+{
+       margin: auto;
+        width: 100%;
+        padding: 5px;
+
+
+    }
+    #a{
+        width: 100%;
+        padding: 5px;
+    }
+   #b{
+    width: 100%;
+     padding: 5px;
+    }
+    #c{
+        width: 100%;
+        padding:5px;
+    
+    }
+    .main{
+        text-align: center;
+    }
+    input[type="submit"]
+    {
+    
+        width: 100%;
+        padding: 5px;
+        border-radius: 5px;
+        background-color: aqua;
+        cursor: pointer;
+    }
+    input[type="submit"]:hover{
+        background-color: blue;
+    }
+
+    
+    </style>
+</head>
+<body>
+    <div class="con">
+    <h1 class="main">sponteniya form</h1>
+
+    <form action="there is no data base">
+    <p>Name*
+        <input type="text"name="name"placeholder="enter your name">
+    </p>
+    <p>
+        Email*
+        <input type="email"name="name"placeholder="enter your email">
+    </p>
+    <label for="contact">
+    <p>
+        contact No*
+        <input type="number"name="mob"placeholder="+91 0000000000"id="contact">
+    </p>
+    </label>
+    <p>
+        Admisson No*
+<input type="text"name="an"placeholder="BCA IKG 098778">
+    </p>
+<p>
+    branch*
+    <input type="text"name="branch"placeholder="enter your branch">
+</p>
+<p> chose the first Event*</p>
+<select name="event1"id="a">
+    <option value="">none</option>
+    <option value="cricket">cricket</option>
+    <option value="football">football</option>
+    <option value="dance">dance</option>
+    <option value="singing">singing</option>
+</select>
+<p> chose the 2nd Event</p>
+<select name="event1"id="b">
+    <option value="hjj">none</option>
+    <option value="cricket">1.kuch v nhi</option>
+    <option value="football">2.mujhe kuch v nhi aata kya chose kare</option>
+    <option value="dance">3.dance on bhojpuri song</option>
+    <option value="singing">4.singing</option>
+</select>
+<p> chose the 3rd Event</p>
+<select name="event1"id="c">
+    <option value="">none</option>
+    <option value="cricket">1.cricket</option>
+    <option value="football">2.football</option>
+    <option value="dance">3.dance</option>
+    <option value="singing">4.singing</option>
+</select>
+<p>
+<input type="submit"value="click here to sumbit">
+</p>
+    </form>
+    </div>
+</body>
+</html>
